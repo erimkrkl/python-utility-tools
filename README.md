@@ -1,25 +1,31 @@
 # Python Utility Tools 🛠️
 
-A collection of useful Python tools designed to simplify everyday tasks.
+A collection of practical Python tools designed to simplify everyday tasks and improve programming skills.
 
-This repository contains small, practical Python projects built to improve programming skills and solve common problems.
+## 📌 Projects
 
-## 📌 Tools
+### 1. Text Analyzer
 
-| Tool | Description | Status |
-|---|---|---|
-| Text Analyzer | Analyze text, count words and characters, and find frequently used words. | 🚧 In Progress |
-| File Organizer | Organize files into folders based on file types. | Planned |
-| Password Generator | Generate random and secure passwords. | Planned |
-| PDF Tools | Perform basic PDF operations. | Planned |
-| Unit Converter | Convert between common measurement units. | Planned |
+A command-line application that analyzes text and provides useful statistics.
 
-## 🐍 Technologies
-
-- Python
-- Standard Python Libraries
+**Features:**
+- Character, letter, and digit counting
+- Number detection and extraction
+- Word and unique word counting
+- Longest and shortest word detection
+- Average word length calculation
+- Most frequently used words
+- Estimated reading time
+- Option to analyze multiple texts in one session
 
 ## 🚀 Getting Started
+
+### Requirements
+- Python 3.x
+
+No external libraries are required.
+
+### Installation
 
 Clone the repository:
 
@@ -33,10 +39,33 @@ Navigate to the project directory:
 cd python-utility-tools
 ```
 
+### Run Text Analyzer
+
+Version 1:
+
+```bash
+python text_analyzer.py
+```
+
+Version 2:
+
+```bash
+python text_analyzer_v2.py
+```
+
+## 🛠️ Technologies
+
+- Python
+- Collections
+- String
+- Regular Expressions (re)
+
 ## 🎯 Purpose
 
-The goal of this repository is to build practical Python tools, explore programming concepts, and create useful open-source projects.
+This repository is a collection of practical Python projects created to strengthen programming skills, explore new concepts, and build useful tools.
+
+New tools and improvements will be added over time.
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is intended to be open source.
